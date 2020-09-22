@@ -9,9 +9,12 @@
   },
   "jest": {
     "collectCoverage": true,
-    "coverageReporters": ["html"]
+    "coverageReporters": [
+      "html"
+    ]
   },
   "dependencies": {
+    "fs": "0.0.1-security",
     "jest": "26.4.2"
   },
   "devDependencies": {
